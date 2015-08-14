@@ -33,6 +33,11 @@ public class MyActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            openSetting();
+            return true;
+        }
+        else if(id == R.id.action_search) {
+            openSearch();
             return true;
         }
 
@@ -46,4 +51,7 @@ public class MyActivity extends ActionBarActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    private void openSetting(){}
+    private void openSearch(){}
 }
