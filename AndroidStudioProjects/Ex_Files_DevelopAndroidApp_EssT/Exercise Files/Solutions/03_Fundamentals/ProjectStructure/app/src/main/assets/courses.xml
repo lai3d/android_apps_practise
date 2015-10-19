@@ -1,0 +1,29 @@
+<courses>
+  <course>
+    <courseId>10101</courseId>
+    <credits>3</credits>
+    <category>Animation</category>
+    <name>DESIGNING A BASIC DIGITAL CHARACTER I</name>
+    <description>This course covers the creation of a basic, engaging character model, from concept development through sketching and modeling of the character. Students will be expected to research and pitch a design and background story, creating concept drawings, storyboards, animatics, and a traditional clay maquette. In the modeling portion of the course, you will construct a basic rig with 3D modeling tools, resulting in a fully animate-able character that can be skinned in any major 3D software package.</description>
+    <prerequisites>None</prerequisites>
+    <image>10101.jpg</image>
+  </course>
+  <course>
+    <courseId>10102</courseId>
+    <credits>3</credits>
+    <category>Animation</category>
+    <name>DESIGNING A BASIC DIGITAL CHARACTER II</name>
+    <description>Designing a Basic Digital Character II reviews basic character creation techniques and advances to character setup and final rendering. Learn to rig and skin the character skeleton to create smooth and expressive movement possible. Then, during rendering phase, you’ll learn to create custom textures and materials and apply these to create a realistic appearance for your model.</description>
+    <prerequisites>Designing a Basic Digital Character I</prerequisites>
+    <image>10102.jpg</image>
+  </course>
+  <course>
+    <courseId>10103</courseId>
+    <credits>2</credits>
+    <category>Animation</category>
+    <name>ANIMATING IN 2D WITH ADOBE FLASH</name>
+    <description>Despite the prevalence of Maya and 3ds Max, Flash is still a huge player in the 2D animation world, being employed in shows from the cult phenomenon My Little Pony: Friendship is Magic and Looney Tunes to the full-length feature The Secret of Kells. This course shows you how to sketch a basic character, start drawing in Flash using vector shapes and paths, convert drawings to symbols, and animate a character along a timeline using keyframes and tweens. Then, you’ll learn how to publish to different formats, including SWF, and what the best distribution methods are for your movie in today’s media landscape.</description>
+    <prerequisites>Designing a Basic Digital Character I</prerequisites>
+    <image>10103.jpg</image>
+  </course>
+</courses>

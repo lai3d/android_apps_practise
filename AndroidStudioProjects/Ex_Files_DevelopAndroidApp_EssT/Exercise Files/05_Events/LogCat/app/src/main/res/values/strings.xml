@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Roux Catalog</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="roux_academy">Roux Academy</string>
+    <string name="register_here">Register Here</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="register">Register</string>
+
+</resources>
