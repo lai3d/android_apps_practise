@@ -18,7 +18,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private BroadcastReceiver mNetworkStateReceiver;
+    private NetworkReceiver mNetworkStateReceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,25 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mNetworkStateReceiver = new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context context, Intent intent)
-            {
-                ConnectivityManager connectMgr = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
-                NetworkInfo mobNetInfo = connectMgr.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-                NetworkInfo wifiNetInfo = connectMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-
-                if (!mobNetInfo.isConnected() && !wifiNetInfo.isConnected())
-                {
-                    //Log.i(TAG, "unconnect");
-                    // unconnect network
-                }
-                else
-                {
-                    // connect network
-                }
-            }
-        };
+        mNetworkStateReceiver = new NetworkReceiver();
 
         //注册网络监听
         IntentFilter filter = new IntentFilter();
