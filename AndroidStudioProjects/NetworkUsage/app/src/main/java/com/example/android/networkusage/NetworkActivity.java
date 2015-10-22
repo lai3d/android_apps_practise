@@ -96,6 +96,7 @@ public class NetworkActivity extends Activity {
     public void onStart() {
         super.onStart();
 
+
         // Gets the user's network preference settings
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 
